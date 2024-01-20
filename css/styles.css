@@ -32,9 +32,12 @@ button {
 
 
 .container {
-    max-width: 1470px;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 100%;
+    max-width: 1158px;
+    padding-right: 156px;
+    padding-left: 156px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     margin: 0 auto;
     outline: 2px solid red;
 }
@@ -45,6 +48,10 @@ button {
 
 /*---------------header------------*/
 
+.head {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 .header-logo {
     color: var(--IRIS, #4D5AE5);
 font-family: "Raleway", sans-serif;
@@ -90,10 +97,12 @@ letter-spacing: 0.02em;
 
 /*-----------HERO------------*/
 
-.hero {
-    background: var(--NAVY-BLUE, #2E2F42);
-}
 
+
+.hero-cont {
+    padding: 188px 472px 292px 472px;
+    background: var(--NAVY-BLUE, #2E2F42);    
+}
 .hero-title {
     color: var(--WHITE, #FFF);
 text-align: center;
@@ -101,6 +110,8 @@ font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
+margin-bottom: 48px;
+max-width: 496px;
 }
 
 .hero-btn {
@@ -127,6 +138,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
+margin-bottom: 8px;
 }
 
 .features-item-text {
@@ -148,6 +160,8 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+max-width: 162px;
+margin: 0 auto 72px;
 }
 .team-list {
     background-color: #FFFFFF
@@ -160,6 +174,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.20;
 letter-spacing: 0.02em;
+margin-bottom: 8px;
 }
 .team-item-text {
     color: var(--SLATE, #434455);
@@ -180,6 +195,8 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+max-width: 218px;
+margin-bottom: 72px;
 }
 
 .portfolio-subtitle {
@@ -188,6 +205,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.20;
 letter-spacing: 0.02em;
+margin-bottom: 8px;
 }
 .portfolio-text {
     color: var(--SLATE, #434455);
@@ -209,6 +227,8 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+max-width: 71px;
+margin-bottom: 17.5px;
 }
 .foot-logo-studio {
     color: var(--IRIS, #f4f4fd);
@@ -218,4 +238,5 @@ text-transform: uppercase;
 font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.02em;
+max-width: 264px;
 }
