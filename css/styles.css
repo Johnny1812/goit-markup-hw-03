@@ -52,6 +52,14 @@ button {
     padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc
 }
+.headcont {
+    display: flex;
+    padding: 0 15px 0 15px;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+}
 .header-logo {
     color: var(--IRIS, #4D5AE5);
 font-family: "Raleway", sans-serif;
@@ -60,24 +68,34 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-right: 76px;
 }
 
 .header-logo-studio {
     color: var(--NAVY-BLUE, #2E2F42);
 }
-
+.header-menu-list {
+    display: flex;
+    gap: 40px;
+}
 .header-menu-item {
     color: var(--NAVY-BLUE, #2E2F42);
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
+padding-top: 24px; 
+padding-bottom: 24px;
 }
 
 .header-menu-item:hover,
 .header-menu-item:focus,
 .header-menu-item:active {
     color: var(--OCEAN, #404BBF);
+}
+.header-address-list {
+    display: flex;
+    gap: 40px;
 }
 
 .header-address-item {
