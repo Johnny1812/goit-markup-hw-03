@@ -29,6 +29,10 @@ button {
     cursor: pointer;
 }
 
+img {
+    display: block;
+}
+
 
 
 .container {
