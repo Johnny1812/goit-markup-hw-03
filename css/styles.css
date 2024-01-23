@@ -73,6 +73,7 @@ img {
 .header-nav {
     display: flex;
     align-items: center;
+    margin-right: auto;
 }
 .header-logo {
     color: var(--IRIS, #4D5AE5);
