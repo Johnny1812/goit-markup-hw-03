@@ -237,6 +237,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 max-width: 162px;
 margin: 0 auto 72px;
+white-space: nowrap;
 }
 
 .team-list-item {
@@ -286,6 +287,7 @@ text-align: center;
 
 .portfolio-title {
     color: var(--NAVY-BLUE, #2E2F42);
+    white-space: nowrap;
 text-align: center;
 font-size: 36px;
 font-weight: 700;
@@ -293,7 +295,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 max-width: 218px;
-margin-bottom: 72px;
+margin: 0 auto 72px;
 }
 
 .portfolio-list {
@@ -351,6 +353,7 @@ max-width: 71px;
 margin-bottom: 16px;
 padding: 101.5px 1240px 189.5px 156px;
 display: inline-block;
+white-space: nowrap;
 }
 
 .foot-logo-studio {
