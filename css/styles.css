@@ -159,6 +159,11 @@ margin: 0 auto 48px;
 max-width: 496px;
 }
 
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .hero-btn {
     background: var(--IRIS, #4D5AE5);
     color: var(--WHITE, #FFF);
@@ -173,6 +178,7 @@ min-width: 169px;
 height: 56px;
 border: none;
 border-radius: 4px;
+align-items: center;
 }
 
 .hero-btn:hover,
